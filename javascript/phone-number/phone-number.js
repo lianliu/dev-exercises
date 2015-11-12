@@ -30,9 +30,8 @@ PhoneNumber.prototype.areaCode = function(){
 
 PhoneNumber.prototype.toString = function(){
 	var n = this.num;
-	var p1 = "(" + n.substring(0,3) + ")";
-	var p2 = p1 + " " + n.substring(3,6);
-	var res = p2 + "-" + n.substring(6);
+	var res = "(" + n.substring(0,3) + ")" + " " + n.substring(3,6) + 
+				"-" + n.substring(6);
 	return res;
 };
 
