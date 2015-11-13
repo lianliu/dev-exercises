@@ -27,8 +27,10 @@ After visiting `http://localhost:8080` in your browser, you should see _"The ser
 Feel free to add any additional infrastructure that you would like, as long as the page is still accessible by running `npm start`.
 
 ### Tile Component
-- A [mockup of Tile component](./resources/tile-example.png) may be found here: `./resources/tile-example.png`.
+- A [mockup of Tile component](./resources/mockup.png) may be found here: `./resources/mockup.png`.
+- A [annontated mockup](./resources/mockup-annotated.png) may be found here: `./resources/mockup-annotated.png`.
 - Used to represent a single piece of video content.
 - Displays a thumbnail, title, duration, and category.
 - Used in a variety of layouts (e.g. – standalone, within a responsive grid, etc), and should be built to handle that flexibility.
-- Includes [interactions](./resources/tile-interactions.gif) for favoriting and viewing additional, similar content. Interactions can be found here: `./resources/tile-interactions.gif`
+- It is recommended you utilize the Museo Sans type face, which is [available on Typekit](https://typekit.com/fonts/museo-sans) with a free account.
+- Includes [interactions](./resources/mockup-interactions.gif) for favoriting and viewing additional, similar content. Interactions can be found here: `./resources/mockup-interactions.gif`
